@@ -53,7 +53,7 @@ spec:
     spec:
       containers:
       - name: ms-usuarios
-        image: carlospatronerboop/ms-usuarios:latest
+        image: mouraaad/ms-usuarios:latest
         env:
         - name: SPRING_DATASOURCE_URL
           value: "jdbc:postgresql://ms-usuarios-db:5432/ms_usuarios_db"

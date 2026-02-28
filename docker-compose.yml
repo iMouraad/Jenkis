@@ -1,6 +1,6 @@
 services:
   app:
-    image: carlospatronerboop/ms-usuarios:latest
+    image: mouraaad/ms-usuarios:latest
     ports:
       - "8080:8080"
     environment:

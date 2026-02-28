@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'carlospatronerboop/ms-usuarios'
+        DOCKER_IMAGE = 'mouraaad/ms-usuarios'
         DOCKER_TAG = 'latest'
         DOCKER_CREDENTIALS_ID = 'docker-hub-credentials' // Configurar en Jenkins Credentials
         AZURE_KUBECONFIG_ID = 'azure-aks-kubeconfig' // Configurar en Jenkins Credentials
