@@ -54,6 +54,7 @@ spec:
       containers:
       - name: ms-usuarios
         image: mouraaad/ms-usuarios:latest
+        imagePullPolicy: Always
         env:
         - name: SPRING_DATASOURCE_URL
           value: "jdbc:postgresql://ms-usuarios-db:5432/ms_usuarios_db"
